@@ -3,23 +3,23 @@
 - Internals and concepts
   - Strong and weak sides of node.js
   - Stateful and stateless servers
-  - Nonblocking I/O and slocking code
-  - Event loop: phases
-  - Event loop: microtasks and macrotasks
+  - Nonblocking I/O and slocking code: 👂 heard
+  - Event loop: phases: 🎓 known
+  - Event loop: microtasks and macrotasks: 🎓 known
   - Garbage collection
   - Node.js LTS schedule
   - I/O-bound, CPU-bound, memory-bound tasks
   - Interactive applications (close to real-time)
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
-  - node:module
-  - Caching in CJS and ESM
-  - Modules as singletons
-  - Contexts and scripts node:vm
-  - Dependencies: npm, node_modules
-  - Dependencies: package.json and package lock
-  - Module-based permissions model
+  - CommonJS modules: 🎓 known
+  - ECMAScript modules: 🎓 known
+  - node:module: 🖐️ used
+  - Caching in CJS and ESM: 👂 heard
+  - Modules as singletons: 🖐️ used
+  - Contexts and scripts node:vm: 🖐️ used
+  - Dependencies: npm, node_modules: 🖐️ used
+  - Dependencies: package.json and package lock: 🖐️ used
+  - Module-based permissions model: 👂 heard
   - Isolation with modularity
   - Dependency injection
   - DI containers
@@ -33,7 +33,7 @@
   - Clustering
   - Watch filesystem changes with --watch
 - Internal API
-  - Streams API
+  - Streams API: 🎓 known
   - Web Streams API
   - Crypto API
   - Password hashing with node:crypto.scrypt
@@ -84,28 +84,28 @@
   - GoF for Node.js
   - Leaking abstractions
 - Network
-  - IP sticky sessions
-  - Endpoint throttling
-  - HTTP(S)
-  - TCP/SSL
+  - IP sticky sessions: 🎓 known
+  - Endpoint throttling: 🎓 known
+  - HTTP(S): 🎓 known
+  - TCP/SSL: 🎓 known
   - UDP
   - TLS
-  - Websocket
+  - Websocket: 👂 heard
   - SSE
   - HTTP/3 (QUIC)
   - Long polling
-  - REST
+  - REST: 👂 heard
   - RPC
-  - Routing
+  - Routing: 🎓 known
   - DoS
-  - DDoS
+  - DDoS: 🎓 known
   - XSS
   - Path traversal
   - CSRF
   - DNS
-  - Fetch API
+  - Fetch API: 🖐️ used
   - IncomingMessage
-  - SQL injection
+  - SQL injection: 🎓 known
   - noDelay
   - keep-alive
   - ALPN
@@ -114,16 +114,16 @@
   - Protocol agnostic approach
 - Technique and tools
   - Native test runner
-  - Logging
-  - Application configuring
-  - Testing
+  - Logging: 🖐️ used
+  - Application configuring: 🎓 known
+  - Testing: 🖐️ used
   - CI/CD
   - Readable
   - Writable
   - Transform
   - back pressure
   - Buffer
-  - Console
+  - Console: 🖐️ used
   - Inspector
   - Reliability
   - Quality
